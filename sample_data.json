@@ -1,0 +1,224 @@
+{
+    "companies": [
+        {
+            "id": "10000001",
+            "name": "TechCorp",
+            "email": "hr@techcorp.com",
+            "location": "Bangkok"
+        },
+        {
+            "id": "10000002",
+            "name": "DataSoft",
+            "email": "jobs@datasoft.com",
+            "location": "Chiang Mai"
+        }
+    ],
+    "jobs": [
+        {
+            "id": "20000001",
+            "title": "Software Engineer",
+            "desc": "พัฒนาและดูแลระบบ Web Application",
+            "company_id": "10000001",
+            "deadline": "2025-09-30",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000002",
+            "title": "Backend Developer",
+            "desc": "ออกแบบ API และฐานข้อมูล",
+            "company_id": "10000001",
+            "deadline": "2025-10-05",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000003",
+            "title": "System Administrator",
+            "desc": "ดูแลระบบ Server และ Network",
+            "company_id": "10000001",
+            "deadline": "2025-09-28",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000004",
+            "title": "Data Analyst Intern",
+            "desc": "วิเคราะห์ข้อมูลเชิงสถิติ (Internship)",
+            "company_id": "10000002",
+            "deadline": "2025-09-25",
+            "status": "open",
+            "job_type": "internship"
+        },
+        {
+            "id": "20000005",
+            "title": "Machine Learning Intern",
+            "desc": "โครงการเกี่ยวกับ AI และ Machine Learning",
+            "company_id": "10000002",
+            "deadline": "2025-09-27",
+            "status": "open",
+            "job_type": "internship"
+        },
+        {
+            "id": "20000006",
+            "title": "Frontend Developer",
+            "desc": "พัฒนา UI ด้วย React",
+            "company_id": "10000001",
+            "deadline": "2025-09-29",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000007",
+            "title": "DevOps Engineer",
+            "desc": "ดูแล CI/CD pipeline",
+            "company_id": "10000001",
+            "deadline": "2025-10-02",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000008",
+            "title": "Business Analyst",
+            "desc": "เก็บ requirement จากลูกค้า",
+            "company_id": "10000002",
+            "deadline": "2025-09-30",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000009",
+            "title": "QA Tester",
+            "desc": "ทดสอบซอฟต์แวร์และเขียน test cases",
+            "company_id": "10000002",
+            "deadline": "2025-09-28",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000010",
+            "title": "UI/UX Designer",
+            "desc": "ออกแบบประสบการณ์ผู้ใช้",
+            "company_id": "10000001",
+            "deadline": "2025-10-01",
+            "status": "open",
+            "job_type": "normal"
+        },
+        {
+            "id": "20000011",
+            "title": "Backend Developer",
+            "company_id": "10000001",
+            "status": "closed",
+            "job_type": "normal",
+            "deadline": "2025-09-01",
+            "desc": "พัฒนา API และระบบ server-side"
+        },
+        {
+            "id": "20000012",
+            "title": "UI/UX Designer",
+            "company_id": "10000002",
+            "status": "closed",
+            "job_type": "internship",
+            "deadline": "2025-08-15",
+            "desc": "ออกแบบประสบการณ์ผู้ใช้และอินเทอร์เฟซ"
+        }
+    ],
+    "candidates": [
+        {
+            "id": "30000001",
+            "first_name": "สมชาย",
+            "last_name": "ใจดี",
+            "email": "somchai@example.com",
+            "status": "graduated"
+        },
+        {
+            "id": "30000002",
+            "first_name": "สมหญิง",
+            "last_name": "ใจงาม",
+            "email": "somying@example.com",
+            "status": "studying"
+        },
+        {
+            "id": "30000003",
+            "first_name": "John",
+            "last_name": "Doe",
+            "email": "john.doe@example.com",
+            "status": "graduated"
+        },
+        {
+            "id": "30000004",
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "email": "jane.smith@example.com",
+            "status": "studying"
+        },
+        {
+            "id": "30000005",
+            "first_name": "David",
+            "last_name": "Brown",
+            "email": "david.brown@example.com",
+            "status": "graduated"
+        },
+        {
+            "id": "30000006",
+            "first_name": "Emily",
+            "last_name": "Johnson",
+            "email": "emily.j@example.com",
+            "status": "studying"
+        },
+        {
+            "id": "30000007",
+            "first_name": "Michael",
+            "last_name": "Lee",
+            "email": "mike.lee@example.com",
+            "status": "graduated"
+        },
+        {
+            "id": "30000008",
+            "first_name": "Sarah",
+            "last_name": "Miller",
+            "email": "sarah.miller@example.com",
+            "status": "studying"
+        },
+        {
+            "id": "30000009",
+            "first_name": "Tom",
+            "last_name": "Wilson",
+            "email": "tom.wilson@example.com",
+            "status": "graduated"
+        },
+        {
+            "id": "30000010",
+            "first_name": "Anna",
+            "last_name": "Taylor",
+            "email": "anna.taylor@example.com",
+            "status": "studying"
+        },
+        {
+            "id": "30000011",
+            "first_name": "ทดสอบ",
+            "last_name": "อีเมลผิด",
+            "email": "invalid-email",
+            "status": "graduated"
+        },
+        {
+            "id": "30000012",
+            "first_name": "Test",
+            "last_name": "WrongFormat",
+            "email": "wrong.email@com",
+            "status": "studying"
+        }
+    ],
+    "applications": [
+        {
+            "job_id": "20000001",
+            "candidate_id": "30000001",
+            "applied_at": "2025-09-21 10:58:07"
+        },
+        {
+            "job_id": "20000005",
+            "candidate_id": "30000010",
+            "applied_at": "2025-09-21 11:44:01"
+        }
+    ]
+}
